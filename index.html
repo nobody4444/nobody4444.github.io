@@ -4,18 +4,21 @@
 	<meta charset="utf-8">
 	<title>Test Page: Don't Panic</title>
 	<style type="text/css">
-		div {
-			border: 1px solid black;
-		}
 		a {
 			color: red;
-		}
-		div a {
-			color: green;
 		}
 		li a {
 			color: goldenrod;
 			border: 1px solid black;
+		}
+		#exec-bio {
+			background-color: lightgray;
+		}
+		.bio-box {
+			border: 1px solid black;
+		}
+		.bio-box a {
+			color: green;
 		}
 	</style>
 </head>
@@ -35,19 +38,19 @@
 
 	<h2>I'm an h2</h2>
 
-	<div>
+	<div id="exec-bio" class="bio-box">
 		<a href="https://example.com/">I'm a link</a> 
 	</div>
 
-	<div>
+	<div class="bio-box">
 		<a href="https://example.com/">I'm a link</a> 
 	</div>
 
-	<div>
+	<div class="bio-box">
 		<a href="https://example.com/">I'm a link</a>
 	</div>
 
-	<div>
+	<div class="bio-box">
 		<a href="https://example.com/">I'm a link</a> 
 	</div>
 </body>
